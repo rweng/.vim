@@ -1,0 +1,3 @@
+[submodule "submodules/pathogen"]
+	path = submodules/pathogen
+	url = https://github.com/tpope/vim-pathogen.git

@@ -19,3 +19,6 @@
 [submodule "submodules/taglist"]
 	path = submodules/taglist
 	url = https://github.com/esukram/taglist.vim.git
+[submodule "submodules/bufonly"]
+	path = submodules/bufonly
+	url = https://github.com/duff/vim-bufonly.git

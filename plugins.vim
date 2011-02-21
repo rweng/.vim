@@ -17,3 +17,8 @@ nmap <leader>t :TlistToggle<CR>
 nmap <unique> <silent> <Leader><Leader> :CommandT<CR>
 let g:CommandTMatchWindowAtTop=1
 
+" nerdcommenter
+" ,/ to invert comment on the current line/selection
+nmap <leader>/ :call NERDComment(0, "invert")<cr>
+vmap <leader>/ :call NERDComment(0, "invert")<cr>
+

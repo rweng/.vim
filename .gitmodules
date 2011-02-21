@@ -28,3 +28,6 @@
 [submodule "submodules/kwdbi"]
 	path = submodules/kwdbi
 	url = https://github.com/vim-scripts/kwbdi.vim.git
+[submodule "submodules/nerdcommenter"]
+	path = submodules/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git

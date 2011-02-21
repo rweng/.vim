@@ -22,3 +22,10 @@ let g:CommandTMatchWindowAtTop=1
 nmap <leader>/ :call NERDComment(0, "invert")<cr>
 vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
+" minibufexpl
+let g:miniBufExplVSplit = 25
+let g:miniBufExplorerMoreThanOne = 100
+let g:miniBufExplUseSingleClick = 1
+" ,b to display current buffers list
+nmap <Leader>b :MiniBufExplorer<cr>
+

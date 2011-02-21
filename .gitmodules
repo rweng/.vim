@@ -22,3 +22,6 @@
 [submodule "submodules/bufonly"]
 	path = submodules/bufonly
 	url = https://github.com/duff/vim-bufonly.git
+[submodule "submodules/json"]
+	path = submodules/json
+	url = https://github.com/leshill/vim-json.git

@@ -16,3 +16,6 @@
 [submodule "submodules/syntastic"]
 	path = submodules/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "submodules/taglist"]
+	path = submodules/taglist
+	url = https://github.com/esukram/taglist.vim.git

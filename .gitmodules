@@ -34,3 +34,6 @@
 [submodule "submodules/minibufexpl"]
 	path = submodules/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "submodules/jslint"]
+	path = submodules/jslint
+	url = https://github.com/joestelmach/javaScriptLint.vim.git

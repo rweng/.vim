@@ -36,3 +36,6 @@ nmap <leader>n :cn<CR>
 set completeopt=menuone,preview
 
 " call ClassicIde()
+
+" PLUGINS
+nmap <leader>p :NERDTreeToggle<CR>

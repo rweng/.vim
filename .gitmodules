@@ -46,3 +46,6 @@
 [submodule "submodules/surround"]
 	path = submodules/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "submodules/snipmate"]
+	path = submodules/snipmate
+	url = https://github.com/msanders/snipmate.vim.git

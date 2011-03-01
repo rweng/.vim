@@ -29,3 +29,5 @@ let g:miniBufExplUseSingleClick = 1
 " ,b to display current buffers list
 nmap <Leader>b :MiniBufExplorer<cr>
 
+" vim-indentobject
+let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]

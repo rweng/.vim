@@ -40,3 +40,6 @@
 [submodule "submodules/rails"]
 	path = submodules/rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "submodules/indent-object"]
+	path = submodules/indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git

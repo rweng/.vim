@@ -43,3 +43,6 @@
 [submodule "submodules/indent-object"]
 	path = submodules/indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "submodules/surround"]
+	path = submodules/surround
+	url = https://github.com/tpope/vim-surround.git

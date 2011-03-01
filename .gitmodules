@@ -37,3 +37,6 @@
 [submodule "submodules/jslint"]
 	path = submodules/jslint
 	url = https://github.com/joestelmach/javaScriptLint.vim.git
+[submodule "submodules/rails"]
+	path = submodules/rails
+	url = https://github.com/tpope/vim-rails.git

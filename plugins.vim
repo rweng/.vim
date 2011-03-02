@@ -25,3 +25,8 @@ nmap <Leader>b :MiniBufExplorer<cr>
 
 " vim-indentobject
 let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]
+
+
+" rails
+" completing Rails hangs a lot
+let g:rubycomplete_rails = 1

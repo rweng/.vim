@@ -18,13 +18,18 @@ nmap <C-E> :b#<CR>
 " Ctrl-c to <ESC>
 map <C-c> <Esc>
 
-map <C-s> :wa<CR>
+map <leader>s :wa<CR>
+nnoremap <leader>a ggVG
 
 " yank and paste always to and from system buffer
 vnoremap y "+y
 vnoremap d "+d
 nnoremap p "+p
-nnoremap <C-a> ggVG
+nnoremap P "+P
+nnoremap dd "+dd
+
+" from vim 7.3-074 on one can use this setting instead of mappings above
+" set clipboard+=unnamedplus
 
 " ,e to fast finding files. just type beginning of a name and hit TAB
 nmap <leader>e :e **/
@@ -36,6 +41,5 @@ nmap <leader>n :cn<CR>
 set completeopt=menuone,preview
 
 " call ClassicIde()
-
 " PLUGINS
 nmap <leader>p :NERDTreeToggle<CR>

@@ -49,3 +49,6 @@
 [submodule "submodules/snipmate"]
 	path = submodules/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "submodules/rubycomplete"]
+	path = submodules/rubycomplete
+	url = https://github.com/vim-scripts/rubycomplete.vim.git

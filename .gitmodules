@@ -55,3 +55,6 @@
 [submodule "submodules/supertab"]
 	path = submodules/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "submodules/xmledit"]
+	path = submodules/xmledit
+	url = https://github.com/sukima/xmledit.git

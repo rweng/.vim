@@ -58,3 +58,6 @@
 [submodule "submodules/xmledit"]
 	path = submodules/xmledit
 	url = https://github.com/sukima/xmledit.git
+[submodule "submodules/ack"]
+	path = submodules/ack
+	url = https://github.com/mileszs/ack.vim.git

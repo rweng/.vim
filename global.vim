@@ -86,3 +86,5 @@ set nofoldenable        "dont fold by default "
 " extended '%' mapping for if/then/else/end etc
 runtime macros/matchit.vim
 
+" handlebars 
+au BufNewFile,BufRead *.hbs,*.handlebars			set filetype=html

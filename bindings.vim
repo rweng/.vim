@@ -18,7 +18,6 @@ nmap <C-E> :b#<CR>
 " Ctrl-c to <ESC>
 map <C-c> <Esc>
 
-map <leader>s :wa<CR>
 nnoremap <leader>a ggVG
 
 " yank and paste always to and from system buffer
@@ -32,7 +31,7 @@ nnoremap dd "+dd
 " set clipboard+=unnamedplus
 
 " ,e to fast finding files. just type beginning of a name and hit TAB
-nmap <leader>e :e **/
+" nmap <leader>e :e **/
 
 " ,n to get the next location (compilation errors, grep etC)
 nmap <leader>n :cn<CR>
@@ -42,17 +41,15 @@ set completeopt=menuone,preview
 
 " call ClassicIde()
 " PLUGINS
-nmap <leader>p :NERDTreeToggle<CR>
 
+" nerd tree
+nmap <leader>nt :NERDTreeToggle<CR>
 
+" show tag list
+nmap <leader>t :TlistToggle<CR>
 
-" always show buffers at the right
-let g:miniBufExplModSelTarget = 1
-let g:miniBufExplorerMoreThanOne = 0
-let g:miniBufExplModSelTarget = 0
-let g:miniBufExplUseSingleClick = 1
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplVSplit = 25
-let g:miniBufExplSplitBelow=1
+" command-t
+nmap <silent><leader>e :CommandT<CR>
 
-map <c-w><c-t> :WMToggle<cr>
+" ,b to display current buffers list
+nmap <Leader>b :MiniBufExplorer<cr>

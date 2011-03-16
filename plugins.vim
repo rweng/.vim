@@ -38,4 +38,4 @@ autocmd FileType ruby,eruby let g:rubycomplete_include_object = 1
 highlight Pmenu ctermbg=238 gui=bold
 
 "open NERDTree
-au VimEnter *  NERDTree
+" au VimEnter *  NERDTreeToggle

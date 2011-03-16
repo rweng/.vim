@@ -18,14 +18,12 @@ nmap <C-E> :b#<CR>
 " Ctrl-c to <ESC>
 map <C-c> <Esc>
 
+" mark everything
 nnoremap <leader>a ggVG
 
-" yank and paste always to and from system buffer
-vnoremap y "+y
-vnoremap d "+d
-nnoremap p "+p
-nnoremap P "+P
-nnoremap dd "+dd
+" sets the default register to
+nnoremap <leader>s :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+
 
 " from vim 7.3-074 on one can use this setting instead of mappings above
 " set clipboard+=unnamedplus
@@ -51,5 +49,4 @@ nmap <leader>t :TlistToggle<CR>
 " command-t
 nmap <silent><leader>e :CommandT<CR>
 
-" ,b to display current buffers list
-nmap <Leader>b :MiniBufExplorer<cr>
+" <leader>mbe is minibufexplorer

@@ -64,3 +64,6 @@
 [submodule "submodules/endwise"]
 	path = submodules/endwise
 	url = https://github.com/tpope/vim-endwise.git
+[submodule "submodules/js-indent"]
+	path = submodules/js-indent
+	url = https://github.com/vim-scripts/JavaScript-Indent.git

@@ -80,8 +80,9 @@ set noswapfile          " do not write .swp files
 " folding
 set foldcolumn=0        " columns for folding
 set foldmethod=indent
-set foldlevel=9
+set foldlevel=0
 set nofoldenable        "dont fold by default "
+
 
 " extended '%' mapping for if/then/else/end etc
 runtime macros/matchit.vim

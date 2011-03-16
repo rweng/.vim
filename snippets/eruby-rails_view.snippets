@@ -42,6 +42,10 @@ snippet =jsit
 	<%= javascript_include_tag('${1:javascript_filename}') %>
 snippet =sslt
 	<%= stylesheet_link_tag "${1:stylesheet_filename}" %>
+snippet =jst
+	<%= javascript_tag do %>
+		${1:js}
+	<% end %>
 
 snippet imaget
 	<%= image_tag "${1:image_path}" %>

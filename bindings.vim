@@ -50,3 +50,5 @@ nmap <leader>t :TlistToggle<CR>
 nmap <silent><leader>e :CommandT<CR>
 
 " <leader>mbe is minibufexplorer
+
+cnoreabbrev bd Bclose

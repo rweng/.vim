@@ -4,8 +4,8 @@ let g:syntastic_auto_loc_list=1
 
 " taglist
 let Tlist_Show_Menu=1
-let Tlist_Use_Right_Window=1
-let Tlist_Use_Horiz_Window=1
+let Tlist_Use_Right_Window=0
+let Tlist_Use_Horiz_Window=0
 
 " command-t
 ""nmap <unique> <silent> <Leader><Leader> :CommandT<CR>

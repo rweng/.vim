@@ -1,3 +1,5 @@
+echo "loading bindings"
+
 let mapleader = ","
 
 " Use Q for formatting the current paragraph (or selection)

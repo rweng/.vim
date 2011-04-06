@@ -22,8 +22,8 @@ set laststatus=2        " always show the status line
 set listchars=tab:▷⋅,trail:·
 set list
 
-colorscheme vividchalk
-set background=dark
+set background=light
+colorscheme solarized
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
@@ -49,6 +49,8 @@ let bash_is_sh=1        " syntax shell files as bash scripts
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
 "set fixdel                 " fix terminal code for delete (if delete is broken but backspace works)
+let g:ruby_debugger_progname = 'mvim'
+let g:ruby_debugger_builtin_sender = 0
 
 set ts=2                " number of spaces in a tab
 set sw=2                " number of spaces for indent
@@ -89,3 +91,10 @@ runtime macros/matchit.vim
 
 " handlebars 
 au BufNewFile,BufRead *.hbs,*.handlebars			set filetype=html
+
+augroup myfiletypes
+	" Clear old autocmds in group
+	autocmd!
+	" autoindent with two spaces, always expand tabs
+	autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+augroup END

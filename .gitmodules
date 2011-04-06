@@ -64,3 +64,15 @@
 [submodule "submodules/js-indent"]
 	path = submodules/js-indent
 	url = https://github.com/vim-scripts/JavaScript-Indent.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/yaml-vim"]
+	path = bundle/yaml-vim
+	url = https://github.com/ingydotnet/yaml-vim.git
+[submodule "submodules/vim-ruby-debugger"]
+	path = submodules/vim-ruby-debugger
+	url = git://github.com/astashov/vim-ruby-debugger.git
+[submodule "submodules/tagbar"]
+	path = submodules/tagbar
+	url = https://github.com/majutsushi/tagbar.git

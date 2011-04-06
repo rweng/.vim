@@ -22,7 +22,7 @@ map <C-c> <Esc>
 nnoremap <leader>a ggVG
 
 " sets the default register to
-nnoremap <leader>s :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+nnoremap <leader>+ :let @a=@" \| let @"=@+ \| let @+=@a<CR>
 
 
 " from vim 7.3-074 on one can use this setting instead of mappings above

@@ -82,3 +82,6 @@
 [submodule "submodules/pastie"]
 	path = submodules/pastie
 	url = https://github.com/tpope/vim-pastie.git
+[submodule "submodules/abolish"]
+	path = submodules/abolish
+	url = https://github.com/tpope/vim-abolish.git

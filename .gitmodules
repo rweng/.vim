@@ -79,3 +79,6 @@
 [submodule "submodules/yankring"]
 	path = submodules/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "submodules/pastie"]
+	path = submodules/pastie
+	url = https://github.com/tpope/vim-pastie.git

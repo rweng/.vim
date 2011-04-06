@@ -1,7 +1,8 @@
 let mapleader = ","
 
-" Don't use Ex mode, use Q for formatting
-map Q gq
+" Use Q for formatting the current paragraph (or selection)
+vmap Q gq
+nmap Q gqap
 
 "make Y consistent with C and D
 nnoremap Y y$
@@ -22,8 +23,9 @@ map <C-c> <Esc>
 nnoremap <leader>a ggVG
 
 " sets the default register to
-nnoremap <leader>+ :let @a=@" \| let @"=@+ \| let @+=@a<CR>
-
+nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+nnoremap . :
+nnoremap <leader>w :wa<CR>
 
 " from vim 7.3-074 on one can use this setting instead of mappings above
 " set clipboard+=unnamedplus
@@ -43,12 +45,12 @@ set completeopt=menuone,preview
 " nerd tree
 nmap <leader>nt :NERDTreeToggle<CR>
 
-" show tag list
-nmap <leader>t :TlistToggle<CR>
+" tagbar 
+nmap <leader>t :TagbarToggle<CR>
 
 " command-t
 nmap <silent><leader>e :CommandT<CR>
 
 " <leader>mbe is minibufexplorer
 
-cnoreabbrev bd Bclose
+" cnoreabbrev bd Bclose

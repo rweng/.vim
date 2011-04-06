@@ -34,8 +34,14 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_include_object_space = 1
 autocmd FileType ruby,eruby let g:rubycomplete_include_object = 1
+
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
 
 "open NERDTree
 " au VimEnter *  NERDTreeToggle
+
+" ruby debugger
+let g:ruby_debugger_progname = 'mvim'
+"let g:ruby_debugger_builtin_sender = 1
+

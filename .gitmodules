@@ -76,3 +76,6 @@
 [submodule "submodules/tagbar"]
 	path = submodules/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "submodules/yankring"]
+	path = submodules/yankring
+	url = https://github.com/vim-scripts/YankRing.vim.git

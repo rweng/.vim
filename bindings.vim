@@ -1,4 +1,7 @@
-echo "loading bindings"
+if(exists("b:did_bind"))
+  finish
+endif
+let b:did_bind=1
 
 let mapleader = ","
 
@@ -15,9 +18,6 @@ nmap <silent> <leader>s :set nolist!<CR>
 " Ctrl-N to disable search match highlight
 nmap <silent> <C-N> :silent noh<CR>
 
-" Ctrl-E to switch between 2 last buffers
-nmap <C-E> :b#<CR>
-
 " Ctrl-c to <ESC>
 map <C-c> <Esc>
 
@@ -26,8 +26,16 @@ nnoremap <leader>a ggVG
 
 " sets the default register to
 nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+
+nnoremap - .
 nnoremap . :
+
 nnoremap <leader>w :wa<CR>
+nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
+
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :source $MYVIMRC<CR>
 
 " from vim 7.3-074 on one can use this setting instead of mappings above
 " set clipboard+=unnamedplus
@@ -53,6 +61,17 @@ nmap <leader>t :TagbarToggle<CR>
 " command-t
 nmap <silent><leader>e :CommandT<CR>
 
+" yankring
+map <leader>y YRShow<CR>
+
 " <leader>mbe is minibufexplorer
 
 " cnoreabbrev bd Bclose
+map <C-w> :qa!<CR>
+
+map <C-j> :wincmd j<CR>
+map <C-h> :wincmd h<CR>
+map <C-k> :wincmd k<CR>
+map <C-l> :wincmd l<CR>
+
+

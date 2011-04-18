@@ -67,8 +67,6 @@ map <leader>y YRShow<CR>
 " <leader>mbe is minibufexplorer
 
 " cnoreabbrev bd Bclose
-map <C-w> :qa!<CR>
-
 map <C-j> :wincmd j<CR>
 map <C-h> :wincmd h<CR>
 map <C-k> :wincmd k<CR>

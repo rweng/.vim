@@ -10,6 +10,7 @@ let Tlist_Use_Horiz_Window=0
 " command-t
 ""nmap <unique> <silent> <Leader><Leader> :CommandT<CR>
 let g:CommandTMatchWindowAtTop=1
+let g:CommandTMaxHeight=10
 
 " nerdcommenter
 " ,/ to invert comment on the current line/selection

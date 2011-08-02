@@ -26,22 +26,20 @@ nmap <silent> <leader>n :silent noh<CR>
 nnoremap <leader>a ggVG
 
 " sets the default register to
-nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+" nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
 
 " preserve redo
-nnoremap <leader>. .
-nnoremap <leader><leader> @:<cr>
+" nnoremap <leader>. .
+" nnoremap <leader><leader> @:<cr>
 
 " and save the shift
-nnoremap . :
-
+" nnoremap . :
 
 nnoremap <leader>w :wa<CR>
+
+" goto file under the curser
 nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
 
-" Quickly edit/reload the vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :source $MYVIMRC<CR>
 
 " PLUGINS
 
@@ -57,8 +55,6 @@ nmap <silent><leader>e :CommandT<CR>
 " yankring
 map <leader>y :YRShow<CR>
 
-" from vim 7.3-074 on one can use this setting instead of mappings above
-" set clipboard+=unnamedplus
 
 " ,e to fast finding files. just type beginning of a name and hit TAB
 " nmap <leader>e :e **/
@@ -75,4 +71,3 @@ map <C-j> :wincmd j<CR>
 map <C-h> :wincmd h<CR>
 map <C-k> :wincmd k<CR>
 map <C-l> :wincmd l<CR>
-

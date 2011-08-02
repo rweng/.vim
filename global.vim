@@ -25,7 +25,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 
 set background=dark
-colorscheme vividchalk 
+colorscheme solarized 
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
@@ -51,6 +51,10 @@ let bash_is_sh=1        " syntax shell files as bash scripts
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
 "set fixdel                 " fix terminal code for delete (if delete is broken but backspace works)
+
+" from vim 7.3-074 on one can use this setting instead of mappings above
+" set clipboard=unnamed
+set clipboard=unnamedplus
 
 set ts=2                " number of spaces in a tab
 set sw=2                " number of spaces for indent

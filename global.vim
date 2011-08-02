@@ -21,9 +21,11 @@ set laststatus=2        " always show the status line
 "set listchars=tab:▷⋅,trail:·,eol:$
 set listchars=tab:▷⋅,trail:·
 set list
+set encoding=utf-8
+set fileencoding=utf-8
 
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme vividchalk 
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black

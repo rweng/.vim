@@ -45,3 +45,8 @@ highlight Pmenu ctermbg=238 gui=bold
 let g:ruby_debugger_progname = 'mvim'
 "let g:ruby_debugger_builtin_sender = 1
 
+" vim-latex
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+let g:Tex_ViewRule_pdf = 'open -a Preview.app' 
+

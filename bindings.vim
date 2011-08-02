@@ -12,14 +12,15 @@ nmap Q gqap
 "make Y consistent with C and D
 nnoremap Y y$
 
-" toggle highlight trailing whitespace
-nmap <silent> <leader>s :set nolist!<CR>
 
-" Ctrl-N to disable search match highlight
-nmap <silent> <C-N> :silent noh<CR>
+" switch to last buffer
+map <leader>b :b#<CR>
 
 " Ctrl-c to <ESC>
-map <C-c> <Esc>
+map <leader>c <Esc>
+
+" Ctrl-N to disable search match highlight
+nmap <silent> <leader>n :silent noh<CR>
 
 " mark everything
 nnoremap <leader>a ggVG
@@ -27,8 +28,13 @@ nnoremap <leader>a ggVG
 " sets the default register to
 nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
 
-nnoremap - .
+" preserve redo
+nnoremap <leader>. .
+nnoremap <leader><leader> @:<cr>
+
+" and save the shift
 nnoremap . :
+
 
 nnoremap <leader>w :wa<CR>
 nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
@@ -37,19 +43,6 @@ nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
 
-" from vim 7.3-074 on one can use this setting instead of mappings above
-" set clipboard+=unnamedplus
-
-" ,e to fast finding files. just type beginning of a name and hit TAB
-" nmap <leader>e :e **/
-
-" ,n to get the next location (compilation errors, grep etC)
-nmap <leader>n :cn<CR>
-
-"set completeopt=menuone,preview,longest
-set completeopt=menuone,preview
-
-" call ClassicIde()
 " PLUGINS
 
 " nerd tree
@@ -62,7 +55,18 @@ nmap <leader>t :TagbarToggle<CR>
 nmap <silent><leader>e :CommandT<CR>
 
 " yankring
-map <leader>y YRShow<CR>
+map <leader>y :YRShow<CR>
+
+" from vim 7.3-074 on one can use this setting instead of mappings above
+" set clipboard+=unnamedplus
+
+" ,e to fast finding files. just type beginning of a name and hit TAB
+" nmap <leader>e :e **/
+
+"set completeopt=menuone,preview,longest
+set completeopt=menuone,preview
+
+" call ClassicIde()
 
 " <leader>mbe is minibufexplorer
 
@@ -71,5 +75,4 @@ map <C-j> :wincmd j<CR>
 map <C-h> :wincmd h<CR>
 map <C-k> :wincmd k<CR>
 map <C-l> :wincmd l<CR>
-
 

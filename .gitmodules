@@ -1,87 +1,124 @@
 [submodule "submodules/pathogen"]
 	path = submodules/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+  url = https://github.com/tpope/vim-pathogen.git
+  ignore = dirty
 [submodule "submodules/vim-vividchalk"]
 	path = submodules/vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
+  ignore = dirty
 [submodule "submodules/nerdtree"]
 	path = submodules/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+  ignore = dirty
 [submodule "submodules/vim-ruby"]
 	path = submodules/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+  ignore = dirty
 [submodule "submodules/command-t"]
 	path = submodules/command-t
 	url = https://github.com/wincent/Command-T.git
+  ignore = dirty
 [submodule "submodules/syntastic"]
 	path = submodules/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+  ignore = dirty
 [submodule "submodules/taglist"]
 	path = submodules/taglist
 	url = https://github.com/esukram/taglist.vim.git
+  ignore = dirty
 [submodule "submodules/bufonly"]
 	path = submodules/bufonly
 	url = https://github.com/duff/vim-bufonly.git
+  ignore = dirty
 [submodule "submodules/json"]
 	path = submodules/json
 	url = https://github.com/leshill/vim-json.git
+  ignore = dirty
 [submodule "submodules/kwdbi"]
 	path = submodules/kwdbi
 	url = https://github.com/vim-scripts/kwbdi.vim.git
+  ignore = dirty
 [submodule "submodules/nerdcommenter"]
 	path = submodules/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+  ignore = dirty
 [submodule "submodules/minibufexpl"]
 	path = submodules/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+  ignore = dirty
 [submodule "submodules/jslint"]
 	path = submodules/jslint
 	url = https://github.com/joestelmach/javaScriptLint.vim.git
+  ignore = dirty
 [submodule "submodules/rails"]
 	path = submodules/rails
 	url = https://github.com/tpope/vim-rails.git
+  ignore = dirty
 [submodule "submodules/indent-object"]
 	path = submodules/indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+  ignore = dirty
 [submodule "submodules/surround"]
 	path = submodules/surround
 	url = https://github.com/tpope/vim-surround.git
+  ignore = dirty
 [submodule "submodules/snipmate"]
 	path = submodules/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+  ignore = dirty
 [submodule "submodules/supertab"]
 	path = submodules/supertab
 	url = https://github.com/ervandew/supertab.git
+  ignore = dirty
 [submodule "submodules/xmledit"]
 	path = submodules/xmledit
 	url = https://github.com/sukima/xmledit.git
+  ignore = dirty
 [submodule "submodules/ack"]
 	path = submodules/ack
 	url = https://github.com/mileszs/ack.vim.git
+  ignore = dirty
 [submodule "submodules/endwise"]
 	path = submodules/endwise
 	url = https://github.com/tpope/vim-endwise.git
+  ignore = dirty
 [submodule "submodules/js-indent"]
 	path = submodules/js-indent
 	url = https://github.com/vim-scripts/JavaScript-Indent.git
+  ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+  ignore = dirty
 [submodule "bundle/yaml-vim"]
 	path = bundle/yaml-vim
 	url = https://github.com/ingydotnet/yaml-vim.git
+  ignore = dirty
 [submodule "submodules/vim-ruby-debugger"]
 	path = submodules/vim-ruby-debugger
 	url = git://github.com/astashov/vim-ruby-debugger.git
+  ignore = dirty
 [submodule "submodules/tagbar"]
 	path = submodules/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+  ignore = dirty
 [submodule "submodules/yankring"]
 	path = submodules/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
+  ignore = dirty
 [submodule "submodules/pastie"]
 	path = submodules/pastie
 	url = https://github.com/tpope/vim-pastie.git
+  ignore = dirty
 [submodule "submodules/abolish"]
 	path = submodules/abolish
 	url = https://github.com/tpope/vim-abolish.git
+  ignore = dirty
+[submodule "submodules/latex"]
+	path = submodules/latex
+	url = https://github.com/vim-latex/vim-latex.github.com.git
+  ignore = dirty
+[submodule "bundle/textile"]
+	path = bundle/textile
+	url = https://github.com/timcharper/textile.vim.git
+  ignore = dirty

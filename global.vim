@@ -22,6 +22,7 @@ set laststatus=2        " always show the status line
 set listchars=tab:▷⋅,trail:·
 set list
 set encoding=utf-8
+set enc=utf-8
 set fileencoding=utf-8
 
 set background=dark
@@ -71,6 +72,7 @@ set incsearch           " Incremental search
 set hlsearch            " Highlight search match
 set ignorecase          " Do case insensitive matching
 set smartcase           " do not ignore if search pattern has CAPS
+set gdefault   " assume the /g flag on :s substitutions to replace all matches in a line:
 
 " omni completion settings
 set ofu=syntaxcomplete#Complete

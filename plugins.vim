@@ -51,3 +51,7 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 let g:Tex_ViewRule_pdf = 'open -a Preview.app' 
 
+" delimitMate
+let delimitMate_expand_space = 1
+let delimitMate_excluded_ft = "vim"
+

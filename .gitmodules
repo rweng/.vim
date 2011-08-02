@@ -122,3 +122,7 @@
 	path = bundle/textile
 	url = https://github.com/timcharper/textile.vim.git
   ignore = dirty
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+  ignore = dirty

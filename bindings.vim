@@ -12,12 +12,16 @@ nmap Q gqap
 "make Y consistent with C and D
 nnoremap Y y$
 
+" <leader>+K for bufkill
+map <leader>k <Esc>:BD<CR>
 
 " switch to last buffer
-map <leader>b :b#<CR>
+map <C-b> :b#<CR>
 
 " Ctrl-c to <ESC>
 map <leader>c <Esc>
+
+map <Leader>bu :TMiniBufExplorer<cr>
 
 " Ctrl-N to disable search match highlight
 nmap <silent> <leader>n :silent noh<CR>
@@ -47,7 +51,7 @@ nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
 nmap <leader>nt :NERDTreeToggle<CR>
 
 " tagbar 
-nmap <leader>t :TagbarToggle<CR>
+" nmap <leader>t :TagbarToggle<CR>
 
 " command-t
 nmap <silent><leader>e :CommandT<CR>

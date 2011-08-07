@@ -6,9 +6,9 @@ task :install do
 	system %Q{rm -rf $HOME/.vimrc}
 	system %Q{ln -s "$PWD" "$HOME/.vim"}
 	system %Q{ln -s "$PWD/vimrc" "$HOME/.vimrc"}
-  system %Q{git submodule init && git submodule update}
+	system %Q{ln -s "$PWD/gvimrc" "$HOME/.gvimrc"}
 end
 
 task :commandt do
-	system %Q{cd submodules/command-t/ruby/command-t/ && ruby extconf.rb && make}
+	system %Q{cd bundle/Command-T/ruby/command-t/ && ruby extconf.rb && make}
 end

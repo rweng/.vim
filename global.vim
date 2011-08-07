@@ -8,25 +8,29 @@ set noeol
 set binary
 
 " presentation settings
+
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers
 set textwidth=0         " Do not wrap words (insert)
 set nowrap              " Do not wrap words (view)
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
+set showmode " Show current mode down the bottom
+set ttyfast " More smooth screen redrawing
 set ruler               " line and column number of the cursor position
 set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status line
-"set listchars=tab:▷⋅,trail:·,eol:$
 set listchars=tab:▷⋅,trail:·
-set list
+set nolist " Hide invisibles by default
 set encoding=utf-8
 set enc=utf-8
 set fileencoding=utf-8
+set ruler " Show ruler
+set t_Co=256 " Support for xterm with 256 colors (gets overriden in .gvimrc)
 
-set background=dark
-colorscheme solarized 
+" set cmdheight=2 " Make the command line a little taller
+
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
@@ -42,11 +46,10 @@ hi User1 term=bold,reverse cterm=bold ctermfg=4 ctermbg=2 gui=bold guifg=Blue gu
 set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 set shell=/bin/zsh " use zsh for shell commands
 set autowriteall        " Automatically save before commands like :next and :make
-set hidden              " enable multiple modified buffers
+set hidden              " Allow hiding buffers with unsaved changes
 set history=1000
 set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
 set backspace=indent,eol,start
-set guioptions-=T       " disable toolbar"
 set completeopt=menuone,preview
 let bash_is_sh=1        " syntax shell files as bash scripts
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
@@ -94,5 +97,3 @@ set nofoldenable        "dont fold by default "
 
 " extended '%' mapping for if/then/else/end etc
 runtime macros/matchit.vim
-
-autocmd FileType * set ai sw=2 sts=2 et

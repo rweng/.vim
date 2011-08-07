@@ -1,1 +1,1 @@
-source ~/.vim/bindings.vim
+" source ~/.vim/bindings.vim

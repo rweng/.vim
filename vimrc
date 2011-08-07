@@ -1,4 +1,6 @@
-call pathogen#runtime_append_all_bundles()
+" call pathogen#runtime_append_all_bundles()
+
+source ~/.vim/vundle.vim
 
 source ~/.vim/plugins.vim
 source ~/.vim/functions.vim

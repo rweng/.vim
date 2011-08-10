@@ -36,3 +36,6 @@ Ctrl-PgUp     go to previous tab (gvim)
 :tabclose {i}     close i-th tab
 :tabonly          close all other tabs (show only the current tab
 
+p pastes from vim buffer
+<C-v> pastes from system buffer
+

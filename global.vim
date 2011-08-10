@@ -56,10 +56,6 @@ set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for 
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
 "set fixdel                 " fix terminal code for delete (if delete is broken but backspace works)
 
-" from vim 7.3-074 on one can use this setting instead of mappings above
-" set clipboard=unnamed
-set clipboard=unnamedplus
-
 set ts=2                " number of spaces in a tab
 set sw=2                " number of spaces for indent
 " set et                  " expand tabs into spaces

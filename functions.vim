@@ -14,15 +14,15 @@ endfunction
 
 
 function! ToggleBackground()
-    if (g:solarized_style=="dark")
-    let g:solarized_style="light"
-    colorscheme solarized
-else
-    let g:solarized_style="dark"
-    colorscheme solarized
-endif
+
+  if (&background=="dark")
+    set background=light
+  else
+    set background=dark
+  endif
+
+  colorscheme solarized
 endfunction
-command! Togbg call ToggleBackground()
-nnoremap <F5> :call ToggleBackground()<CR>
-inoremap <F5> <ESC>:call ToggleBackground()<CR>a
-vnoremap <F5> <ESC>:call ToggleBackground()<CR>
+
+
+map <F5> :call ToggleBackground()<CR>

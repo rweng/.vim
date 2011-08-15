@@ -35,6 +35,7 @@ Bundle 'SuperTab-continued.'
 Bundle 'ack.vim'
 Bundle 'BufOnly.vim'
 Bundle 'Tagbar'
+Bundle 'tpope/vim-surround'
 
 
 filetype plugin indent on     " required!

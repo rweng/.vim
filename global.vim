@@ -8,11 +8,14 @@ set noeol
 set binary
 
 " presentation settings
-
+set cursorline
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers
 set textwidth=0         " Do not wrap words (insert)
-set nowrap              " Do not wrap words (view)
+set wrapmargin=0
+set wrap
+" set nowrap              " Do not wrap words (view)
+set linebreak
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
 set showmode " Show current mode down the bottom
@@ -22,7 +25,7 @@ set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status line
 set listchars=tab:▷⋅,trail:·
-set nolist " Hide invisibles by default
+set nolist " Hide invisibles by default, also list disables linebreaks
 set encoding=utf-8
 set enc=utf-8
 set fileencoding=utf-8

@@ -39,7 +39,7 @@ set t_Co=256 " Support for xterm with 256 colors (gets overriden in .gvimrc)
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " status line
-set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
+" set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
 " highlihgt status line file name
 hi User1 term=bold,reverse cterm=bold ctermfg=4 ctermbg=2 gui=bold guifg=Blue guibg=#44aa00
 

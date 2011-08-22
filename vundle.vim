@@ -36,6 +36,7 @@ Bundle 'ack.vim'
 Bundle 'BufOnly.vim'
 Bundle 'Tagbar'
 Bundle 'tpope/vim-surround'
+Bundle 'rodjek/vim-puppet'
 
 
 filetype plugin indent on     " required!

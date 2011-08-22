@@ -1,4 +1,4 @@
-set background=dark
+set background=light
 colorscheme solarized 
 let g:indent_guides_auto_colors = 1
 set guioptions-=T       " disable toolbar"

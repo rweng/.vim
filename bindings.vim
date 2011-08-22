@@ -43,7 +43,7 @@ nnoremap <leader>a ggVG
 
 
 " save all files
-nnoremap <leader>w :wa<CR>
+nmap <leader>w :wa<CR>
 
 " goto file under the curser
 nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>

@@ -24,7 +24,7 @@ set ruler               " line and column number of the cursor position
 set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status line
-set listchars=tab:▷⋅,trail:·
+set listchars=tab:>,trail:·
 set nolist " Hide invisibles by default, also list disables linebreaks
 set encoding=utf-8
 set enc=utf-8

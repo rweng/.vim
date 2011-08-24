@@ -41,6 +41,14 @@ nmap <silent> <leader>n :silent noh<CR>
 " mark everything
 nnoremap <leader>a ggVG
 
+" swap vim default register and clipboard 
+" nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
+" set clipboard=unnamed
+" nmap <leader>- :let @a=@" \| let @"=!pbpaste \| @a!pbcopy<br>
+nmap <F2> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F2> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F1> :.w !pbcopy<CR><CR>
+vmap <F1> :w !pbcopy<CR><CR>
 
 " save all files
 nmap <leader>w :wa<CR>
@@ -59,7 +67,7 @@ nmap <leader>t :TagbarToggle<CR>
 nmap <silent><leader>e :CommandT<CR>
 
 " yankring
-map <leader>y :YRShow<CR>
+nmap <leader>y :YRShow<CR>
 
 " ,e to fast finding files. just type beginning of a name and hit TAB
 " nmap <leader>e :e **/

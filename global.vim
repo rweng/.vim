@@ -31,6 +31,7 @@ set enc=utf-8
 set fileencoding=utf-8
 set ruler " Show ruler
 set t_Co=256 " Support for xterm with 256 colors (gets overriden in .gvimrc)
+set scrolloff=999 " keep current line centered
 
 " set cmdheight=2 " Make the command line a little taller
 

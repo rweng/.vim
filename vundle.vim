@@ -29,7 +29,7 @@ Bundle 'The-NERD-Commenter'
 Bundle 'msanders/snipmate.vim'
 " Bundle 'snipmate-snippets'
 Bundle "akitaonrails/snipmate-snippets"
-Bundle 'YankRing.vim'
+" Bundle 'YankRing.vim'
 Bundle 'ciaranm/detectindent'
 Bundle 'SuperTab-continued.'
 Bundle 'ack.vim'

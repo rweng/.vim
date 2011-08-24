@@ -41,10 +41,18 @@ nmap <silent> <leader>n :silent noh<CR>
 " mark everything
 nnoremap <leader>a ggVG
 
+" ================================================================================
 " swap vim default register and clipboard 
+" ================================================================================
+
+" this works only if vim is compiled with +clipboard or +xterm_clipboard
 " nnoremap <leader>- :let @a=@" \| let @"=@+ \| let @+=@a<CR>
 " set clipboard=unnamed
-" nmap <leader>- :let @a=@" \| let @"=!pbpaste \| @a!pbcopy<br>
+
+" so we use external commands instead to avoid recompiling vim
+nmap <leader>- :let @a=@" \| let @"=system("pbpaste") \| let res = system("pbcopy", @a)<CR>
+" ================================================================================
+
 nmap <F2> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 imap <F2> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 nmap <F1> :.w !pbcopy<CR><CR>

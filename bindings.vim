@@ -68,7 +68,16 @@ map <leader>y :YRShow<CR>
 set completeopt=menuone,preview
 
 " cnoreabbrev bd Bclose
+
+" map window commands
 map <C-j> :wincmd j<CR>
 map <C-h> :wincmd h<CR>
 map <C-k> :wincmd k<CR>
 map <C-l> :wincmd l<CR>
+
+map <leader>wj :wincmd j<CR>
+map <leader>wh :wincmd h<CR>
+map <leader>wk :wincmd k<CR>
+map <leader>wl :wincmd l<CR>
+map <leader>ws :wincmd s<CR>
+map <leader>wq :wincmd q<CR>

@@ -37,6 +37,7 @@ Bundle 'BufOnly.vim'
 Bundle 'Tagbar'
 Bundle 'tpope/vim-surround'
 Bundle 'rodjek/vim-puppet'
+Bundle 'kchmck/vim-coffee-script'
 
 
 filetype plugin indent on     " required!

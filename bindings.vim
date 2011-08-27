@@ -97,3 +97,6 @@ map <leader>wk :wincmd k<CR>
 map <leader>wl :wincmd l<CR>
 map <leader>ws :wincmd s<CR>
 map <leader>wq :wincmd q<CR>
+
+cnoreabbrev wq wqa
+cnoreabbrev q qa

@@ -12,11 +12,6 @@
 let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=10
 
-" nerdcommenter
-" ,/ to invert comment on the current line/selection
-" nmap <leader>/ :call NERDComment(0, "invert")<cr>
-" vmap <leader>/ :call NERDComment(0, "invert")<cr>
-
 " minibufexpl
 let g:miniBufExplModSelTarget = 1
 " let g:miniBufExplorerMoreThanOne=0

@@ -15,6 +15,12 @@ nnoremap Y y$
 " bufkill
 map <leader>bk <Esc>:BD<CR>
 
+" NerdCommenter toggle
+" ,7 to invert comment on the current line/selection
+nmap <leader>7 :call NERDComment(0, "invert")<cr>
+vmap <leader>7 :call NERDComment(0, "invert")<cr>
+
+
 
 " vimdiff next change
 nmap <leader>df ]c
@@ -31,7 +37,7 @@ nmap <leader>dgr :diffget //3 \| :diffupdate<CR>
 map <C-b> :b#<CR>
 
 " Ctrl-c to <ESC>
-nmap <leader>c <Esc>
+" nmap <leader>c <Esc>
 
 nmap <Leader>be :TMiniBufExplorer<cr>
 

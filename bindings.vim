@@ -17,8 +17,8 @@ map <leader>bk <Esc>:BD<CR>
 
 " NerdCommenter toggle
 " ,7 to invert comment on the current line/selection
-nmap <leader>7 :call NERDComment(0, "invert")<cr>
-vmap <leader>7 :call NERDComment(0, "invert")<cr>
+nmap <leader>7 :call NERDComment(0, "toggle")<cr>
+vmap <leader>7 :call NERDComment(0, "toggle")<cr>
 
 
 

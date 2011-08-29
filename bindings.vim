@@ -34,7 +34,7 @@ nmap <leader>dgr :diffget //3 \| :diffupdate<CR>
 
 
 " switch to last buffer
-map <C-b> :b#<CR>
+map <leader>b :b#<CR>
 
 " Ctrl-c to <ESC>
 " nmap <leader>c <Esc>

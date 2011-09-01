@@ -4,6 +4,8 @@ source ~/.vim/global.vim
 source ~/.vim/plugins.vim
 source ~/.vim/spelling.vim
 source ~/.vim/functions.vim
+
+" sourced in after-load
 "source ~/.vim/bindings.vim
 
 if filereadable(expand("~/.vim_local"))

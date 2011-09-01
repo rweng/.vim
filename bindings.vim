@@ -67,6 +67,10 @@ vmap <F1> :w !pbcopy<CR><CR>
 " save all files
 nmap <leader>w :wa<CR>
 
+" enter and shift-enter as alias for o and O, but without going in insert mode
+map <S-Enter> O<Esc>
+map <CR> o<Esc>
+
 " goto file under the curser
 nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>
 
@@ -102,7 +106,7 @@ map <leader>wh :wincmd h<CR>
 map <leader>wk :wincmd k<CR>
 map <leader>wl :wincmd l<CR>
 map <leader>ws :wincmd s<CR>
-map <leader>wq :wincmd q<CR>
+noremap <leader>wq :q<CR>
 
 cnoreabbrev wq wqa
 cnoreabbrev q qa

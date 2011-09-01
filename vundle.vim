@@ -39,6 +39,6 @@ Bundle 'Tagbar'
 Bundle 'tpope/vim-surround'
 Bundle 'rodjek/vim-puppet'
 Bundle 'kchmck/vim-coffee-script'
-
+Bundle 'Tabular'
 
 filetype plugin indent on     " required!

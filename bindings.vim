@@ -68,8 +68,10 @@ vmap <F1> :w !pbcopy<CR><CR>
 nmap <leader>w :wa<CR>
 
 " enter and shift-enter as alias for o and O, but without going in insert mode
-map <S-Enter> O<Esc>
-map <CR> o<Esc>
+" This is a bad idea though, since it conflicts with buffers that are not
+" modifyable, like when you search with ack and want to jump in one result
+" map <S-Enter> O<Esc>
+" map <CR> o<Esc>
 
 " goto file under the curser
 nmap <leader>cf :let @+ = "<C-r>=expand('%:p')<CR>"<CR>

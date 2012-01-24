@@ -2,11 +2,10 @@ require 'rake'
 
 desc "install links .vimrc and .vim"
 task :install do 
-	system %Q{rm -rf $HOME/.vim}
+	system %Q{rm -rf $HOME/.gvimrc}
 	system %Q{rm -rf $HOME/.vimrc}
-	system %Q{ln -s "$PWD" "$HOME/.vim"}
-	system %Q{ln -s "$PWD/vimrc" "$HOME/.vimrc"}
-	system %Q{ln -s "$PWD/gvimrc" "$HOME/.gvimrc"}
+	system %Q{ln -s "#{File.expand_path('../vimrc' ,__FILE__)}" "$HOME/.vimrc"}
+	system %Q{ln -s "#{File.expand_path('../gvimrc' ,__FILE__)}" "$HOME/.gvimrc"}
 end
 
 task :commandt do

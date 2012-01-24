@@ -42,5 +42,6 @@ Bundle 'tpope/vim-surround'
 Bundle 'rodjek/vim-puppet'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'Tabular'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required!

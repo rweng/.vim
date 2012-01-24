@@ -1,0 +1,8 @@
+--- 
+bundle/vundle: 
+  branch: master
+  remote: master/braid/bundle/vundle
+  revision: c9d81623c33febf0111de9df3d2065c56803a549
+  squashed: true
+  type: git
+  url: http://github.com/gmarik/vundle.git
